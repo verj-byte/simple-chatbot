@@ -105,4 +105,10 @@ async def on_message(message: cl.Message):
     ):
         await msg.stream_token(chunk)
 
+
     await msg.send()
+
+port = int(os.environ.get("PORT", 8000))
+
+if __name__ == "__main__":
+    cl.run("main.py", headless=False, host="0.0.0.0", port=port)
