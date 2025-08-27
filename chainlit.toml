@@ -1,5 +1,5 @@
 [UI]
-default_language = "en"  # Force English, avoids zh-TW auto-generation
+default_language = "en-US"  # Force English, avoids zh-TW auto-generation
 
 [server]
 host = "0.0.0.0"
